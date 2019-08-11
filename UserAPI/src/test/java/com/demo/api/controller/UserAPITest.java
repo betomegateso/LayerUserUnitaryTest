@@ -35,7 +35,7 @@ public class UserAPITest {
 	public void findAllUsersTest() throws Exception {
 
 		User user = new User();
-		user.setName("JuanDiegoCarechimba");
+		user.setName("Name1");
 		user.setId(23);
 
 		when(userService.findAllUsuarios()).thenReturn(Arrays.asList(user));
