@@ -25,7 +25,7 @@ public class UserAPI implements UserAPISpec {
 	@GetMapping("user")
 	public ResponseEntity<List<User>> findAllUsers() {
 //		User user = new User();
-//		user.setName("JuanDiegoCarechimba");
+//		user.setName("Name1");
 //		user.setId(23);
 		
 		
