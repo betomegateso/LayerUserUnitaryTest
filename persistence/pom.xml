@@ -40,4 +40,18 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
 </project>
